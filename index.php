@@ -1,1 +1,1 @@
-<?php include_once("languages_EN.html"); ?>
+<?php include_once("EN.html"); ?>
