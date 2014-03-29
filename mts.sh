@@ -2,7 +2,8 @@
 
 echo "Copying files to the server..."
 
-sudo rm -rf "/Library/WebServer/Documents/*"
+sudo rm -rf "/Library/WebServer/Documents"
+sudo mkdir "/Library/WebServer/Documents"
 sudo cp -r . "/Library/WebServer/Documents/"
 
 echo "Done."
